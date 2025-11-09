@@ -28,6 +28,7 @@ ul {
 .main-nav ul {
   display: flex;
   gap: 30px;
+  background-color: #000000;
 } 
 
 .main-nav ul li a {
