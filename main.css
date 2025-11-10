@@ -5,6 +5,7 @@ body, ul {
   background-color: rgb(39, 39, 39);
   color: #e1e1e1;
 }
+
 ul {
   list-style: none;
 }
@@ -94,6 +95,7 @@ ul {
     padding: 10px 20px;
   }
 }
+
 .features {
   padding: 80px 40px;
   text-align: center;
@@ -127,4 +129,133 @@ ul {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 15px;
+}
+
+.preorder {
+    background: linear-gradient(120deg, #111, #222);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+.preorder h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.preorder p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.preorder-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.preorder-form input {
+  padding: 12px 20px;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.preorder-form button {
+  padding: 12px 30px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.preorder-form button:hover {
+  background-color: #ccc;
+}
+
+.models {
+  background-color: #000;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.models h2 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+  color: #e1e1e1;
+}
+
+.models-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.model {
+  background-color: #1a1a1a;
+  padding: 30px 20px;
+  border-radius: 15px;
+  width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.model:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.model h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.model ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.model ul li {
+  padding: 8px 0;
+}
+
+
+.site-footer {
+  background-color: #000;
+  color: #ccc;
+  text-align: center;
+  padding: 30px 10px;
+  border-top: 1px solid #333;
+}
+
+.site-footer ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #000;
+}
+
+.site-footer ul li a {
+  color: #b4b4b4;
+  text-decoration: none;
+  background-color: #000;
+}
+
+.site-footer ul li a:hover {
+  color: #fff;
 }
